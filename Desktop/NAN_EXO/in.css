@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 110px;
+    width: 100%;
+}
+ul{
+    display: flex;
+    float: right;
+    list-style-type: none;
+    margin: 0 300px 0;
+}
+ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+header img{
+    height: 90px;
+    width: 130px;
+    margin: 10px 100px 0px;
+}
+ul li{
+    margin: 25px;
+    font-size: 18px;
+    font-family: Arial;
+    padding: 20px;
+}
+.menu{
+    height: 700px;
+    width: 100%;
+    background: url(image/fond.jpg);
+    position: absolute;
+    background-size: cover;
+}
+.menu section{
+    display: flex;
+    justify-content: center;
+    margin: 700px 0px 0px;
+}
+.menu section div{
+    height: 400px;
+    width: 700px;
+    margin: 60px;
+}
+.menu section .images img{
+    float: right;
+    height: 400px;
+    width: 500px;
+    border-radius: 25px;
+}
+.menu h1{
+    color: rgb(6, 174, 215);
+}
+.menu p{
+    margin: 50px 0px 0px;
+    font-family: serif;
+    line-height: 25px;
+    font-size: 18px;
+}
+.services{
+    margin: 1300px 0px 0px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.services div{
+    height: 420px;
+    width: 480px;
+    background-color: rgb(42, 122, 165);
+    margin: 10px;
+}
+.services img{
+    height: 330px;
+    width: 430px;
+    margin: 25px;
+    border-radius: 20px;
+}
+.services p{
+    font-family: serif;
+    text-align: center;
+    font-size: 19px;
+    color: #FFF;
+    font-weight: bold;
+}
+footer {
+    background-color: black;
+    height: 200px;
+    display: flex;
+    width: 100%;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+}
+footer p{
+    margin: 40px 0 0 500px;
+    line-height: 22px;
+}
+footer img{
+    height: 110px;
+    width: 160px;
+    margin: 50px 0px 0px 50px;
+}
